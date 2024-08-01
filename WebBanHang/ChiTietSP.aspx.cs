@@ -16,8 +16,8 @@ namespace WebBanHang
             {
                 var str = "<div class=\"icons\" id=\"icons\" runat=\"server\">\r\n  " +
                     "<a href=\"#\" class=\"fas fa-heart\"></a>\r\n  " +
-                    " <a href=\"GioHang.aspx\" class=\"fas fa-shopping-cart\"></a>\r\n   " +
-                    " <a href=\"DangNhap.aspx\" class=\"fas fa-user\"></a>\r\n";
+                    " <a href=\"GioHang.html\" class=\"fas fa-shopping-cart\"></a>\r\n   " +
+                    " <a href=\"DangNhap.html\" class=\"fas fa-user\"></a>\r\n";
                 icons.InnerHtml = str;
 
             }
@@ -30,10 +30,10 @@ namespace WebBanHang
 
                 var str = "<div class=\"icons\" id=\"icons\" runat=\"server\">\r\n  " +
                     "<a href=\"#\" class=\"fas fa-heart\"></a>\r\n  " +
-                    "<a href=\"GioHang.aspx\" class=\"fas fa-shopping-cart\"></a>\r\n   " +
+                    "<a href=\"GioHang.html\" class=\"fas fa-shopping-cart\"></a>\r\n   " +
                     "<a href=\"\" class=\"fas fa-user\"></a>\r\n" +
                     "<a>" + (string)Session["username"] + "</a>" +
-                    "<a href=\"DangXuat.aspx\" class=\"fas fa-sign-out\"></a>";
+                    "<a href=\"DangXuat.html\" class=\"fas fa-sign-out\"></a>";
                 icons.InnerHtml = str;
             }
 
@@ -50,7 +50,7 @@ namespace WebBanHang
                     img += "<img src='" + product.image + "' >";
                     name += "<h3>" + product.name + "</h3>";
                     price += "<div class='price'>$" + product.price + " </div>";
-                    id += "<a href = 'ThemVaoGH.aspx?id=" + product.id + "' class=\"btn\"> add to cart </a>";
+                    id += "<a href = 'ThemVaoGH.html?id=" + product.id + "' class=\"btn\"> add to cart </a>";
                     break;
                 }
             }

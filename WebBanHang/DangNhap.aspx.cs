@@ -48,7 +48,7 @@ namespace WebBanHang
                         // Lưu tên người dùng vào Session
                         Session["username"] = userName;
                         // Chuyển hướng đến trang chủ
-                        Response.Redirect("TrangChu.aspx");
+                        Response.Redirect("TrangChu.html");
                     }
                     else
                     {

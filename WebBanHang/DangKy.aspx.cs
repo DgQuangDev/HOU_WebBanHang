@@ -58,7 +58,7 @@ namespace WebBanHang
                 Application["listUser"] = listUser;
 
                 // Chuyển hướng người dùng đến trang đăng nhập
-                Response.Redirect("DangNhap.aspx");
+                Response.Redirect("DangNhap.html");
             }
         }
     }
