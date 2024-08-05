@@ -67,17 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BtnBuy.aspx" />
-    <Content Include="ChiTietSP.aspx" />
+    <Content Include="BtnBuy.html" />
+    <Content Include="ChiTietSP.html" />
     <Content Include="CSS\ChiTiet.css" />
     <Content Include="CSS\DangKy.css" />
     <Content Include="CSS\DangNhap.css" />
     <Content Include="CSS\GIoHang.css" />
     <Content Include="CSS\TrangChu.css" />
-    <Content Include="DangKy.aspx" />
-    <Content Include="DangNhap.aspx" />
-    <Content Include="DangXuat.aspx" />
-    <Content Include="GioHang.aspx" />
+    <Content Include="DangKy.html" />
+    <Content Include="DangNhap.html" />
+    <Content Include="DangXuat.html" />
+    <Content Include="GioHang.html" />
     <Content Include="Global.asax" />
     <Content Include="JavaScript\DangNhap.js" />
     <Content Include="JavaScript\DangKy.js" />
@@ -98,13 +98,13 @@
     <Content Include="Picture\review1.jpg" />
     <Content Include="Picture\review2.jpg" />
     <Content Include="Picture\review3.jpg" />
-    <Content Include="ThemVaoGH.aspx" />
-    <Content Include="ThemVaoYT.aspx" />
-    <Content Include="TrangChu.aspx" />
+    <Content Include="ThemVaoGH.html" />
+    <Content Include="ThemVaoYT.html" />
+    <Content Include="TrangChu.html" />
     <Content Include="Web.config" />
-    <Content Include="XoaGioHang.aspx" />
-    <Content Include="XoaYeuThich.aspx" />
-    <Content Include="YeuThich.aspx" />
+    <Content Include="XoaGioHang.html" />
+    <Content Include="XoaYeuThich.html" />
+    <Content Include="YeuThich.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BtnBuy.aspx.cs">
